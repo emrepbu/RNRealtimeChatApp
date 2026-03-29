@@ -9,11 +9,20 @@
 
 A real-time messaging application built with React Native and InstantDB.
 
+### Screens
+
+<p align="center">
+  <img src="images/Auth.png" width="45%" />
+  <img src="images/VerifyCode.png" width="45%" />
+  <img src="images/Home.png" width="45%" />
+  <img src="images/Channel.png" width="45%" />
+</p>
+
 ### Technologies Used
 
 *   **Framework**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
 *   **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/)
-*   **Database & Auth**: [InstantDB](https://www.instantdb.com/)
+*   **Database, Auth & Storage**: [InstantDB](https://www.instantdb.com/)
 *   **Animations**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 *   **Visual Effects**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
 *   **Vector Animations**: [Rive](https://rive.app/)
@@ -22,7 +31,7 @@ A real-time messaging application built with React Native and InstantDB.
 ### Project Structure
 
 #### Screens
-1.  **Auth**: Login and registration interface.
+1.  **Auth**: Login and registration interface using InstantDB Auth.
 2.  **Home**: Channel list and new channel creation.
 3.  **Chat**: Real-time messaging with individual channels.
 4.  **Profile**: Identity and avatar management.
@@ -41,11 +50,20 @@ bunx expo start -c
 
 React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygulaması.
 
+### Ekran Görüntüleri
+
+<p align="center">
+  <img src="images/Auth.png" width="45%" />
+  <img src="images/VerifyCode.png" width="45%" />
+  <img src="images/Home.png" width="45%" />
+  <img src="images/Channel.png" width="45%" />
+</p>
+
 ### Kullanılan Teknolojiler
 
 *   **Çatı (Framework)**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
 *   **Navigasyon**: [Expo Router](https://docs.expo.dev/router/introduction/)
-*   **Veritabanı & Auth**: [InstantDB](https://www.instantdb.com/)
+*   **Veritabanı, Auth & Depolama**: [InstantDB](https://www.instantdb.com/)
 *   **Animasyonlar**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 *   **Görsel Efektler**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
 *   **Vektörel Animasyonlar**: [Rive](https://rive.app/)
@@ -54,7 +72,7 @@ React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygul
 ### Proje Yapısı
 
 #### Ekranlar
-1.  **Giriş**: Giriş ve kayıt arayüzü.
+1.  **Giriş**: InstantDB Auth destekli giriş ve kayıt arayüzü.
 2.  **Ana Ekran**: Kanal listesi ve yeni kanal oluşturma.
 3.  **Sohbet**: Kanallara özel gerçek zamanlı mesajlaşma.
 4.  **Profil**: Kimlik ve profil fotoğrafı yönetimi.
