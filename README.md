@@ -11,12 +11,9 @@ A real-time messaging application built with React Native and InstantDB.
 
 ### Screens
 
-<p align="center">
-  <img src="images/Auth.png" width="220" />
-  <img src="images/VerifyCode.png" width="220" />
-  <img src="images/Home.png" width="220" />
-  <img src="images/Channel.png" width="220" />
-</p>
+| Login | Verify Code | Home | Chat |
+| :---: | :---: | :---: | :---: |
+| <img src="images/Auth.png" width="220" /> | <img src="images/VerifyCode.png" width="220" /> | <img src="images/Home.png" width="220" /> | <img src="images/Channel.png" width="220" /> |
 
 ### Technologies Used
 
@@ -52,12 +49,9 @@ React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygul
 
 ### Ekran Görüntüleri
 
-<p align="center">
-  <img src="images/Auth.png" width="220" />
-  <img src="images/VerifyCode.png" width="220" />
-  <img src="images/Home.png" width="220" />
-  <img src="images/Channel.png" width="220" />
-</p>
+| Giriş | Doğrulama | Ana Ekran | Sohbet |
+| :---: | :---: | :---: | :---: |
+| <img src="images/Auth.png" width="220" /> | <img src="images/VerifyCode.png" width="220" /> | <img src="images/Home.png" width="220" /> | <img src="images/Channel.png" width="220" /> |
 
 ### Kullanılan Teknolojiler
 
