@@ -1,56 +1,70 @@
-# Welcome to your Expo app 👋
+# RNRealtimeChatApp - Proof of Concept (PoC)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[English](#english) | [Türkçe](#türkçe)
 
-## Get started
+---
 
-1. Install dependencies
+<a name="english"></a>
+## English
 
-   ```bash
-   npm install
-   ```
+A real-time messaging application built with React Native and InstantDB.
 
-2. Start the app
+### Technologies Used
 
-   ```bash
-   npx expo start
-   ```
+*   **Framework**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
+*   **Navigation**: [Expo Router](https://docs.expo.dev/router/introduction/)
+*   **Database & Auth**: [InstantDB](https://www.instantdb.com/)
+*   **Animations**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
+*   **Visual Effects**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
+*   **Vector Animations**: [Rive](https://rive.app/)
+*   **Media Management**: expo-image-picker & expo-image-manipulator
 
-In the output, you'll find options to open the app in a
+### Project Structure
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+#### Screens
+1.  **Auth**: Login and registration interface.
+2.  **Home**: Channel list and new channel creation.
+3.  **Chat**: Real-time messaging with individual channels.
+4.  **Profile**: Identity and avatar management.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Installation
 
 ```bash
-npm run reset-project
+bun install
+bunx expo start -c
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+<a name="türkçe"></a>
+## Türkçe
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygulaması.
 
-## Learn more
+### Kullanılan Teknolojiler
 
-To learn more about developing your project with Expo, look at the following resources:
+*   **Çatı (Framework)**: [React Native](https://reactnative.dev/) + [Expo](https://expo.dev/)
+*   **Navigasyon**: [Expo Router](https://docs.expo.dev/router/introduction/)
+*   **Veritabanı & Auth**: [InstantDB](https://www.instantdb.com/)
+*   **Animasyonlar**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
+*   **Görsel Efektler**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
+*   **Vektörel Animasyonlar**: [Rive](https://rive.app/)
+*   **Medya Yönetimi**: expo-image-picker & expo-image-manipulator
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Proje Yapısı
 
-## Join the community
+#### Ekranlar
+1.  **Giriş**: Giriş ve kayıt arayüzü.
+2.  **Ana Ekran**: Kanal listesi ve yeni kanal oluşturma.
+3.  **Sohbet**: Kanallara özel gerçek zamanlı mesajlaşma.
+4.  **Profil**: Kimlik ve profil fotoğrafı yönetimi.
 
-Join our community of developers creating universal apps.
+### Kurulum
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+bun install
+bunx expo start -c
+```
+
+---
+*This project is a Proof of Concept (PoC) work. / Bu proje bir Proof of Concept (PoC) çalışmasıdır.*
