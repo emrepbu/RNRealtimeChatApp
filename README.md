@@ -2,7 +2,6 @@
 
 [English](#english) | [Türkçe](#türkçe)
 
----
 
 <a name="english"></a>
 ## English
