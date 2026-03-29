@@ -12,10 +12,10 @@ A real-time messaging application built with React Native and InstantDB.
 ### Screens
 
 <p align="center">
-  <img src="images/Auth.png" width="45%" />
-  <img src="images/VerifyCode.png" width="45%" />
-  <img src="images/Home.png" width="45%" />
-  <img src="images/Channel.png" width="45%" />
+  <img src="images/Auth.png" width="220" />
+  <img src="images/VerifyCode.png" width="220" />
+  <img src="images/Home.png" width="220" />
+  <img src="images/Channel.png" width="220" />
 </p>
 
 ### Technologies Used
@@ -25,7 +25,7 @@ A real-time messaging application built with React Native and InstantDB.
 *   **Database, Auth & Storage**: [InstantDB](https://www.instantdb.com/)
 *   **Animations**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 *   **Visual Effects**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
-*   **Vector Animations**: [Rive](https://rive.app/)
+*   **Vector Animations**: [Rive](https://rive.app/) (Animation library)
 *   **Media Management**: expo-image-picker & expo-image-manipulator
 
 ### Project Structure
@@ -53,10 +53,10 @@ React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygul
 ### Ekran Görüntüleri
 
 <p align="center">
-  <img width="250" src="images/Auth.png" />
-  <img width="250" src="images/VerifyCode.png" />
-  <img width="250" src="images/Home.png" />
-  <img width="250" src="images/Channel.png" />
+  <img src="images/Auth.png" width="220" />
+  <img src="images/VerifyCode.png" width="220" />
+  <img src="images/Home.png" width="220" />
+  <img src="images/Channel.png" width="220" />
 </p>
 
 ### Kullanılan Teknolojiler
@@ -66,7 +66,7 @@ React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygul
 *   **Veritabanı, Auth & Depolama**: [InstantDB](https://www.instantdb.com/)
 *   **Animasyonlar**: [React Native Reanimated](https://docs.expo.dev/versions/latest/sdk/reanimated/)
 *   **Görsel Efektler**: [Expo Blur](https://docs.expo.dev/versions/latest/sdk/blurview/)
-*   **Vektörel Animasyonlar**: [Rive](https://rive.app/)
+*   **Vektörel Animasyonlar**: [Rive](https://rive.app/) (Animasyon kütüphanesi)
 *   **Medya Yönetimi**: expo-image-picker & expo-image-manipulator
 
 ### Proje Yapısı
