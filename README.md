@@ -53,10 +53,10 @@ React Native ve InstantDB ile geliştirilmiş gerçek zamanlı mesajlaşma uygul
 ### Ekran Görüntüleri
 
 <p align="center">
-  <img src="images/Auth.png" width="45%" />
-  <img src="images/VerifyCode.png" width="45%" />
-  <img src="images/Home.png" width="45%" />
-  <img src="images/Channel.png" width="45%" />
+  <img width="250" src="images/Auth.png" />
+  <img width="250" src="images/VerifyCode.png" />
+  <img width="250" src="images/Home.png" />
+  <img width="250" src="images/Channel.png" />
 </p>
 
 ### Kullanılan Teknolojiler
